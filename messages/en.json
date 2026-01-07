@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "tagline": "Freedom & Dreams"
+  },
+  "hero": {
+    "title": "Set Sail, Pursue Freedom & Dreams",
+    "subtitle": "Set Sail,",
+    "highlight": "Pursue Freedom & Dreams"
+  },
+  "projects": {
+    "wallpapersense": {
+      "description": "Discover beautiful wallpapers that understand your aesthetic sense"
+    },
+    "contentqr": {
+      "description": "AI-Driven Marketing Content to QR Code. Generate marketing content with AI and convert to QR codes in one click. Make marketing simpler, faster, and more effective."
+    },
+    "inkwellflow": {
+      "description": "Stop Writing Like a Robot，Write Like You"
+    },
+    "startupsense": {
+      "description": "AI-Powered Startup Validation"
+    },
+    "humannatureexplained": {
+      "description": "Understanding Human Nature, Simply Explained. Explore the fascinating world of human behavior, psychology, and what makes us who we are."
+    },
+    "physicsexplained": {
+      "description": "Understanding Physics, Simply Explained"
+    },
+    "maxtool": {
+      "description": "Free Online Tools - Simple & Fast. No registration required."
+    }
+  },
+  "metadata": {
+    "title": "Leiwen Pro - Freedom & Dreams",
+    "description": "Set Sail, Pursue Freedom & Dreams. Building on professional capabilities, creating value on the path of global entrepreneurship."
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "footer": {
+    "copyright": "© 2026 Leiwen Pro. All rights reserved.",
+    "email": "jtly20250@gmail.com",
+    "emailLabel": "Send email to jtly20250@gmail.com"
+  }
+}
+

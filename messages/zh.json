@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "tagline": "自由与梦想"
+  },
+  "hero": {
+    "title": "扬帆启航，追寻自由与梦想",
+    "subtitle": "扬帆启航，",
+    "highlight": "追寻自由与梦想"
+  },
+  "projects": {
+    "wallpapersense": {
+      "description": "发现理解您审美感的精美壁纸"
+    },
+    "contentqr": {
+      "description": "AI驱动的营销内容转二维码。使用AI生成营销内容，一键转换为二维码。让营销更简单、更快速、更有效。"
+    },
+    "inkwellflow": {
+      "description": "停止像机器人一样写作，像你一样写作"
+    },
+    "startupsense": {
+      "description": "AI驱动的创业验证"
+    },
+    "humannatureexplained": {
+      "description": "理解人性，简单解释。探索人类行为、心理学以及塑造我们的迷人世界。"
+    },
+    "physicsexplained": {
+      "description": "理解物理学，简单解释"
+    },
+    "maxtool": {
+      "description": "免费在线工具 - 简单快速。无需注册。"
+    }
+  },
+  "metadata": {
+    "title": "Leiwen Pro - 自由与梦想",
+    "description": "扬帆启航，追寻自由与梦想。以专业能力为基石，在出海创业的道路上创造价值。"
+  },
+  "NotFound": {
+    "title": "页面未找到",
+    "description": "您访问的页面不存在或已被移动。",
+    "backHome": "返回首页"
+  },
+  "footer": {
+    "copyright": "© 2026 Leiwen Pro. 保留所有权利。",
+    "email": "jtly20250@gmail.com",
+    "emailLabel": "发送邮件至 jtly20250@gmail.com"
+  }
+}
+

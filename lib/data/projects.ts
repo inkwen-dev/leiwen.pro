@@ -32,7 +32,7 @@ export const projects: Project[] = [
   },
   {
     id: 'humannatureexplained',
-    name: 'HumanNature Explained',
+    name: 'HumanNatureExplained',
     description: 'Understanding Human Nature, Simply Explained. Explore the fascinating world of human behavior, psychology, and what makes us who we are.',
     url: 'https://humannatureexplained.org/',
   },

@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "tagline": "Libertad y Sueños"
+  },
+  "hero": {
+    "title": "Zarpar, Perseguir Libertad y Sueños",
+    "subtitle": "Zarpar,",
+    "highlight": "Perseguir Libertad y Sueños"
+  },
+  "projects": {
+    "wallpapersense": {
+      "description": "Descubre hermosos fondos de pantalla que entienden tu sentido estético"
+    },
+    "contentqr": {
+      "description": "Contenido de Marketing Impulsado por IA a Código QR. Genera contenido de marketing con IA y convierte a códigos QR con un clic. Haz que el marketing sea más simple, rápido y efectivo."
+    },
+    "inkwellflow": {
+      "description": "Deja de Escribir Como un Robot, Escribe Como Tú"
+    },
+    "startupsense": {
+      "description": "Validación de Startups Impulsada por IA"
+    },
+    "humannatureexplained": {
+      "description": "Entender la Naturaleza Humana, Explicado de Forma Simple. Explora el fascinante mundo del comportamiento humano, la psicología y lo que nos hace ser quienes somos."
+    },
+    "physicsexplained": {
+      "description": "Entender la Física, Explicado de Forma Simple"
+    },
+    "maxtool": {
+      "description": "Herramientas Online Gratuitas - Simples y Rápidas. No se requiere registro."
+    }
+  },
+  "metadata": {
+    "title": "Leiwen Pro - Libertad y Sueños",
+    "description": "Zarpar, Perseguir Libertad y Sueños. Construyendo sobre capacidades profesionales, creando valor en el camino del emprendimiento global."
+  },
+  "NotFound": {
+    "title": "Página No Encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "backHome": "Volver al Inicio"
+  },
+  "footer": {
+    "copyright": "© 2026 Leiwen Pro. Todos los derechos reservados.",
+    "email": "jtly20250@gmail.com",
+    "emailLabel": "Enviar correo a jtly20250@gmail.com"
+  }
+}
+
