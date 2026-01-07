@@ -24,8 +24,20 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Hero Section */}
+      <section className="container mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 lg:pt-8 pb-2 sm:pb-3 lg:pb-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-2 sm:mb-4 leading-tight">
+            <span className="block mb-1">Set Sail,</span>
+            <span className="block">
+              Pursue <span className="text-[#D4AF37]">Freedom & Dreams</span>
+            </span>
+          </h1>
+        </div>
+      </section>
+
       {/* Main Content */}
-      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10">
+      <main className="container mx-auto px-4 sm:px-6 lg:px-8 pt-2 sm:pt-3 lg:pt-4 pb-4 sm:pb-6 lg:pb-8">
         {/* Projects Grid - 3 columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {projects.map((project) => {

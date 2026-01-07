@@ -3,8 +3,8 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 export const metadata = {
-  title: "leiwen.pro",
-  description: "Portfolio of overseas projects",
+  title: "Leiwen Pro - Freedom & Dreams",
+  description: "Set Sail, Pursue Freedom & Dreams. Building on professional capabilities, creating value on the path of global entrepreneurship.",
 };
 
 const geistSans = Geist({
