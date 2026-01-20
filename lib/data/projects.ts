@@ -13,6 +13,12 @@ export const projects: Project[] = [
     url: 'https://wallpapersense.com',
   },
   {
+    id: 'markdownstudio',
+    name: 'MarkdownStudio',
+    description: 'Beautiful Markdown Editor with Theme Marketplace',
+    url: 'https://markdownstudio.io/',
+  },
+  {
     id: 'contentqr',
     name: 'ContentQR',
     description: 'AI-Driven Marketing Content to QR Code. Generate marketing content with AI and convert to QR codes in one click. Make marketing simpler, faster, and more effective.',
