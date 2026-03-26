@@ -8,6 +8,9 @@
     "highlight": "Pursue Freedom & Dreams"
   },
   "projects": {
+    "beautygirlgallery": {
+      "description": "Anime, beauty & AI art — curated collections and images for your screens."
+    },
     "wallpapersense": {
       "description": "Discover beautiful wallpapers that understand your aesthetic sense"
     },

@@ -7,34 +7,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'beautygirlgallery',
+    name: 'Beauty Girl Gallery',
+    description:
+      'Anime, beauty & AI art — curated collections and images for your screens.',
+    url: 'https://beautygirlgallery.com/',
+  },
+  {
     id: 'wallpapersense',
     name: 'WallpaperSense',
     description: 'Discover beautiful wallpapers that understand your aesthetic sense',
     url: 'https://wallpapersense.com',
-  },
-  {
-    id: 'markdownstudio',
-    name: 'MarkdownStudio',
-    description: 'Beautiful Markdown Editor with Theme Marketplace',
-    url: 'https://markdownstudio.io/',
-  },
-  {
-    id: 'contentqr',
-    name: 'ContentQR',
-    description: 'AI-Driven Marketing Content to QR Code. Generate marketing content with AI and convert to QR codes in one click. Make marketing simpler, faster, and more effective.',
-    url: 'https://contentqr.ai/',
-  },
-  {
-    id: 'inkwellflow',
-    name: 'InkwellFlow',
-    description: 'Stop Writing Like a Robot，Write Like You',
-    url: 'https://inkwellflow.com',
-  },
-  {
-    id: 'startupsense',
-    name: 'StartupSense',
-    description: 'AI-Powered Startup Validation',
-    url: 'https://startupsense.co',
   },
   {
     id: 'humannatureexplained',
@@ -53,6 +36,30 @@ export const projects: Project[] = [
     name: 'MaxTool',
     description: 'Free Online Tools - Simple & Fast. No registration required.',
     url: 'https://maxtool.me/',
+  },
+  {
+    id: 'contentqr',
+    name: 'ContentQR',
+    description: 'AI-Driven Marketing Content to QR Code. Generate marketing content with AI and convert to QR codes in one click. Make marketing simpler, faster, and more effective.',
+    url: 'https://contentqr.ai/',
+  },
+  {
+    id: 'markdownstudio',
+    name: 'MarkdownStudio',
+    description: 'Beautiful Markdown Editor with Theme Marketplace',
+    url: 'https://markdownstudio.io/',
+  },
+  {
+    id: 'startupsense',
+    name: 'StartupSense',
+    description: 'AI-Powered Startup Validation',
+    url: 'https://startupsense.co',
+  },
+  {
+    id: 'inkwellflow',
+    name: 'InkwellFlow',
+    description: 'Stop Writing Like a Robot，Write Like You',
+    url: 'https://inkwellflow.com',
   },
 ];
 
