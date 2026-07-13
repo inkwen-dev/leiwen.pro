@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { projects } from "@/lib/data/projects";
 import { ExternalLink, Sailboat } from "lucide-react";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import FriendLinksBand from "@/components/FriendLinksBand";
 import Footer from "@/components/Footer";
 
 export default async function Home({
@@ -92,7 +93,7 @@ export default async function Home({
         </div>
       </main>
 
-      {/* Footer */}
+      <FriendLinksBand />
       <Footer />
     </div>
   );
