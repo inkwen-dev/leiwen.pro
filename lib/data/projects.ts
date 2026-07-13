@@ -80,4 +80,11 @@ export const projects: Project[] = [
       'Studio Ghibli–style wallpapers for phone & desktop.',
     url: 'https://ghibli-wallpapers.com/',
   },
+  {
+    id: 'jiutianlanyue',
+    name: '九天揽月科技',
+    description:
+      'Enterprise AI consulting — marketing, efficiency, and product R&D.',
+    url: 'https://jiutianlanyue.com/',
+  },
 ];
