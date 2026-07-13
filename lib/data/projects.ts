@@ -73,4 +73,11 @@ export const projects: Project[] = [
     description: 'Stop Writing Like a Robot，Write Like You',
     url: 'https://inkwellflow.com',
   },
+  {
+    id: 'ghibliwallpapers',
+    name: 'Ghibli Wallpapers',
+    description:
+      'Studio Ghibli–style wallpapers for phone & desktop.',
+    url: 'https://ghibli-wallpapers.com/',
+  },
 ];
