@@ -7,17 +7,34 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'beautygirlgallery',
-    name: 'Beauty Girl Gallery',
-    description:
-      'Anime, beauty & AI art — curated collections and images for your screens.',
-    url: 'https://beautygirlgallery.com/',
+    id: 'startupsense',
+    name: 'StartupSense',
+    description: 'AI-Powered Startup Validation',
+    url: 'https://startupsense.co',
+  },
+  {
+    id: 'levelmere',
+    name: 'Levelmere',
+    description: 'See how AI answers talk about your brand.',
+    url: 'https://levelmere.com',
+  },
+  {
+    id: 'mahjonghand',
+    name: 'MahjongHand',
+    description: 'Mahjong hand tools and analysis.',
+    url: 'https://mahjonghand.com',
   },
   {
     id: 'wallpapersense',
     name: 'WallpaperSense',
     description: 'Discover beautiful wallpapers that understand your aesthetic sense',
     url: 'https://wallpapersense.com',
+  },
+  {
+    id: 'maxtool',
+    name: 'MaxTool',
+    description: 'Free Online Tools - Simple & Fast. No registration required.',
+    url: 'https://maxtool.me/',
   },
   {
     id: 'humannatureexplained',
@@ -32,10 +49,11 @@ export const projects: Project[] = [
     url: 'https://physicsexplained.org',
   },
   {
-    id: 'maxtool',
-    name: 'MaxTool',
-    description: 'Free Online Tools - Simple & Fast. No registration required.',
-    url: 'https://maxtool.me/',
+    id: 'beautygirlgallery',
+    name: 'Beauty Girl Gallery',
+    description:
+      'Anime, beauty & AI art — curated collections and images for your screens.',
+    url: 'https://beautygirlgallery.com/',
   },
   {
     id: 'contentqr',
@@ -50,16 +68,9 @@ export const projects: Project[] = [
     url: 'https://markdownstudio.io/',
   },
   {
-    id: 'startupsense',
-    name: 'StartupSense',
-    description: 'AI-Powered Startup Validation',
-    url: 'https://startupsense.co',
-  },
-  {
     id: 'inkwellflow',
     name: 'InkwellFlow',
     description: 'Stop Writing Like a Robot，Write Like You',
     url: 'https://inkwellflow.com',
   },
 ];
-
