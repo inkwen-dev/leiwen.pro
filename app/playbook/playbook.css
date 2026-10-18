@@ -1,0 +1,391 @@
+/* 作用域限定在 .playbook-root，避免覆盖枢纽站 Tailwind */
+.playbook-root {
+  --playbook-bg: #f8fafc;
+  --playbook-ink: #0f172a;
+  --playbook-muted: #64748b;
+  --playbook-accent: #2563eb;
+  --playbook-accent-hover: #1d4ed8;
+  --playbook-card: #ffffff;
+  --playbook-line: #e2e8f0;
+  --playbook-font: "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
+    sans-serif;
+  color-scheme: light;
+  background: var(--playbook-bg);
+  color: var(--playbook-ink);
+  font-family: var(--playbook-font);
+  font-size: 16.5px;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.playbook-root * {
+  box-sizing: border-box;
+}
+
+.playbook-root a {
+  color: var(--playbook-accent);
+  text-decoration: none;
+}
+
+.playbook-root a:hover {
+  color: var(--playbook-accent-hover);
+  text-decoration: underline;
+}
+
+.playbook-root a:focus-visible {
+  outline: 2px solid var(--playbook-accent);
+  outline-offset: 3px;
+}
+
+.playbook-root .shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem 3rem;
+  padding-left: max(1.25rem, env(safe-area-inset-left));
+  padding-right: max(1.25rem, env(safe-area-inset-right));
+}
+
+/* 细二级 tab：紧贴全站顶栏，不占半屏 */
+.playbook-root .subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+  padding: 0.5rem 0 0.75rem;
+  border-bottom: 1px solid var(--playbook-line);
+}
+
+.playbook-root .subnav a {
+  color: var(--playbook-ink);
+  text-decoration: none;
+}
+
+.playbook-root .subnav a:hover {
+  color: var(--playbook-accent);
+  text-decoration: none;
+}
+
+.playbook-root .subnav a[aria-current="page"] {
+  color: var(--playbook-accent);
+  font-weight: 700;
+}
+
+.playbook-root .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.playbook-root .diagram-hero {
+  margin: 0 0 1.75rem;
+  padding: 0.75rem 1rem 1rem;
+  background: var(--playbook-card);
+  border: 1px solid var(--playbook-line);
+  border-radius: 8px;
+}
+
+.playbook-root .diagram-hero-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.playbook-root .diagram-hero-head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--playbook-ink);
+}
+
+.playbook-root .section-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.playbook-root .blurb {
+  margin: 0.35rem auto 0;
+  color: var(--playbook-muted);
+  font-size: 0.95rem;
+  max-width: 36em;
+}
+
+.playbook-root .diagram-caption {
+  margin: 0.85rem 0 0;
+  text-align: center;
+}
+
+.playbook-root .diagram-caption h1,
+.playbook-root .diagram-caption h2 {
+  margin: 0;
+}
+
+.playbook-root .diagram-figure {
+  margin: 0;
+}
+
+.playbook-root .mermaid-wrap {
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+  padding: 0.25rem 0;
+  cursor: zoom-in;
+}
+
+.playbook-root .mermaid-wrap svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.playbook-root .zoom-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(15, 23, 42, 0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.playbook-root .zoom-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: #0f172a;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.playbook-root .zoom-close:hover {
+  background: #e2e8f0;
+}
+
+.playbook-root .zoom-stage {
+  max-width: 92vw;
+  max-height: 86vh;
+  transform-origin: center center;
+  cursor: grab;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  touch-action: none;
+}
+
+.playbook-root .zoom-stage:active {
+  cursor: grabbing;
+}
+
+.playbook-root .zoom-stage svg {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  display: block;
+}
+
+.playbook-root .btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.playbook-root .node-fold {
+  margin-top: 1.25rem;
+  color: var(--playbook-muted);
+  font-size: 0.9rem;
+}
+
+.playbook-root .node-fold summary {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.playbook-root .node-fold ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.playbook-root .cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.playbook-root .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.15rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.playbook-root .btn:disabled:hover {
+  background: var(--playbook-card);
+  color: var(--playbook-ink);
+  border-color: var(--playbook-line);
+}
+
+.playbook-root .btn:focus-visible {
+  outline: 2px solid var(--playbook-accent);
+  outline-offset: 3px;
+}
+
+.playbook-root .btn-primary {
+  background: var(--playbook-accent);
+  color: #fff;
+}
+
+.playbook-root .btn-primary:hover {
+  background: var(--playbook-accent-hover);
+  color: #fff;
+  text-decoration: none;
+}
+
+.playbook-root .btn-secondary {
+  background: var(--playbook-card);
+  color: var(--playbook-ink);
+  border-color: var(--playbook-line);
+}
+
+.playbook-root .btn-secondary:hover {
+  border-color: var(--playbook-accent);
+  color: var(--playbook-accent);
+  text-decoration: none;
+}
+
+.playbook-root .sublinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: var(--playbook-muted);
+}
+
+.playbook-root .sublinks a {
+  color: var(--playbook-muted);
+}
+
+.playbook-root .sublinks a:hover {
+  color: var(--playbook-accent);
+}
+
+.playbook-root .site-footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--playbook-line);
+  font-size: 0.85rem;
+  color: var(--playbook-muted);
+}
+
+.playbook-root .site-footer a {
+  color: var(--playbook-muted);
+}
+
+.playbook-root .site-footer a:hover {
+  color: var(--playbook-accent);
+}
+
+.playbook-root .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.85rem;
+}
+
+.playbook-root .card {
+  background: var(--playbook-card);
+  border: 1px solid var(--playbook-line);
+  border-radius: 6px;
+  padding: 0.95rem 1.05rem;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: border-color 0.15s ease;
+}
+
+.playbook-root a.card:hover {
+  border-color: var(--playbook-accent);
+  text-decoration: none;
+}
+
+.playbook-root .card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  color: var(--playbook-ink);
+  text-wrap: balance;
+}
+
+.playbook-root .card p {
+  margin: 0;
+  color: var(--playbook-muted);
+  font-size: 0.9rem;
+}
+
+.playbook-root .meta {
+  color: var(--playbook-muted);
+  font-size: 0.88rem;
+}
+
+.playbook-root .page-lead {
+  margin: 0 0 1.5rem;
+  color: var(--playbook-muted);
+  max-width: 40em;
+}
+
+.playbook-root table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.playbook-root th,
+.playbook-root td {
+  text-align: left;
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--playbook-line);
+}
+
+.playbook-root h1 {
+  font-size: clamp(1.45rem, 3vw, 1.75rem);
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.playbook-root h2 {
+  font-size: 1.15rem;
+  margin: 1.75rem 0 0.75rem;
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .playbook-root .btn,
+  .playbook-root .card {
+    transition: none;
+  }
+}

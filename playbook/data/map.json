@@ -1,0 +1,4823 @@
+{
+  "version": 1,
+  "brand": "副业有术",
+  "domain": "leiwen.pro/playbook",
+  "updated": "2026-10-16",
+  "nodes": [
+    {
+      "parent": null,
+      "oneLiner": "决定做什么方向与切口",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "stage.select",
+      "name": "选事",
+      "kind": "stage"
+    },
+    {
+      "parent": null,
+      "oneLiner": "有没有人愿意付钱或强意向",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "stage.validate",
+      "name": "验证",
+      "kind": "stage"
+    },
+    {
+      "parent": null,
+      "oneLiner": "用 AI/流程放大单位时间产出",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "stage.leverage",
+      "name": "杠杆",
+      "kind": "stage"
+    },
+    {
+      "parent": null,
+      "oneLiner": "让第一批与持续客户看见你",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "stage.acquire",
+      "name": "获客",
+      "kind": "stage"
+    },
+    {
+      "parent": null,
+      "oneLiner": "怎么收钱、复购与交付",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "stage.monetize",
+      "name": "变现",
+      "kind": "stage"
+    },
+    {
+      "parent": null,
+      "oneLiner": "何时放大、收手或换赛道",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "stage.stop",
+      "name": "收束",
+      "kind": "stage"
+    },
+    {
+      "parent": null,
+      "oneLiner": "兴趣供持续，需求筛可卖",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "dim.interest-demand",
+      "name": "兴趣 × 需求",
+      "kind": "dimension"
+    },
+    {
+      "parent": null,
+      "oneLiner": "默认起步偏虚拟；实体用约束对照",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "dim.virtual-physical",
+      "name": "虚拟 × 实体",
+      "kind": "dimension"
+    },
+    {
+      "parent": null,
+      "oneLiner": "选事优先站到流量侧",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "dim.near-traffic",
+      "name": "离流量近",
+      "kind": "dimension"
+    },
+    {
+      "parent": null,
+      "oneLiner": "靠内容换注意力，再换成钱或线索",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d1",
+      "name": "内容与平台分发",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "货与订单闭环：选品、带货、店铺",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d2",
+      "name": "电商与货",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "卖资料、课、社群、咨询等非实物",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d3",
+      "name": "虚拟产品与知识变现",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "用 AI 降低制作/交付成本（对人提效）",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d4",
+      "name": "AI 提效与工具",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "把能力做成可重复卖的产品或服务",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d5",
+      "name": "AI 产品与开发",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "面向海外流量、货或服务",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d6",
+      "name": "出海",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "公域→私域、投放、SEO/GEO、成交动作",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d7",
+      "name": "获客与成交",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "到店、本地生活、服务实体商户",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d8",
+      "name": "本地与实体",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "怎么选项目、验证与止损的方法层",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d9",
+      "name": "认知与选事",
+      "kind": "direction"
+    },
+    {
+      "parent": null,
+      "oneLiner": "新人路径、圈层与人脉（多为索引）",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "调研/原料/生财有术/方向地图.md"
+        }
+      ],
+      "status": "filled",
+      "id": "dir.d10",
+      "name": "人群与社群运营",
+      "kind": "direction"
+    },
+    {
+      "parent": "dir.d1",
+      "oneLiner": "以个人/小号持续产出内容换信任与变现",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 D1"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.we-media",
+      "name": "自媒体",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "短时长内容，强依赖平台推荐",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 D1 子方向"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.media-shortvideo",
+      "name": "短视频",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "更长内容，适合知识/故事与广告分成",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 D1 子方向"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.media-longvideo",
+      "name": "中长视频",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "文字+配图笔记或文章",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 D1 子方向"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.media-text",
+      "name": "图文（文字为主）",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "图主导的内容形态",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 D1 子方向"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.media-image",
+      "name": "图片 / 图集",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "实时互动成交或涨粉",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 D1 子方向"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.media-live",
+      "name": "直播",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "声音内容；生财侧信号弱，全网补",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "C",
+          "ref": "全网补缺：播客/音频赛道"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.media-audio",
+      "name": "音频 / 播客",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "抖音内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.douyin",
+      "name": "抖音",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "快手内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.kuaishou",
+      "name": "快手",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "视频号内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.channels",
+      "name": "视频号",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "小红书内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.xiaohongshu",
+      "name": "小红书",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "公众号内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.wechat-mp",
+      "name": "公众号",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "头条内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.toutiao",
+      "name": "头条",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "B站内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.bilibili",
+      "name": "B站",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "X / Twitter内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.x",
+      "name": "X / Twitter",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "YouTube内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.youtube",
+      "name": "YouTube",
+      "kind": "platform"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "TikTok内容分发平台",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "站结构·项目库平台筛"
+        }
+      ],
+      "status": "filled",
+      "id": "plat.tiktok",
+      "name": "TikTok",
+      "kind": "platform"
+    },
+    {
+      "parent": "dir.d2",
+      "oneLiner": "不囤货，靠链接成交",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d2.dropship",
+      "name": "无货源 / 一件代发",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d2",
+      "oneLiner": "窄品类店铺，反馈快",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d2.vertical-shop",
+      "name": "垂直小店",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d2",
+      "oneLiner": "直播间成交",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d2.live-commerce",
+      "name": "直播带货",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d2",
+      "oneLiner": "决定卖什么货",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d2.sourcing",
+      "name": "选品研究",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d2",
+      "oneLiner": "到店核销类",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d2.local-group",
+      "name": "本地生活团购",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d2",
+      "oneLiner": "二手/虚拟资料流转",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d2.xianyu",
+      "name": "闲鱼流转",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d3",
+      "oneLiner": "卖可下载虚拟品",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d3.templates",
+      "name": "资料 / 模板店",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d3",
+      "oneLiner": "结构化课程变现",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d3.course",
+      "name": "专栏课",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d3",
+      "oneLiner": "订阅制社群",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d3.community",
+      "name": "社群会员",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d3",
+      "oneLiner": "高客单服务",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d3.consult",
+      "name": "咨询陪跑",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d4",
+      "oneLiner": "写作/素材/粗剪加速",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d4.content-boost",
+      "name": "内容生产提效",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d4",
+      "oneLiner": "应答与交付草稿加速",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d4.cs-boost",
+      "name": "客服/交付提效",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d4",
+      "oneLiner": "图/视觉草稿加速",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d4.design-boost",
+      "name": "设计素材提效",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d4",
+      "oneLiner": "n8n 等对人提效",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d4.workflow",
+      "name": "自动化工作流",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d5",
+      "oneLiner": "可安装或订阅的产品",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d5.app",
+      "name": "小程序 / App",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d5",
+      "oneLiner": "嵌在别人工具链里卖",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d5.plugin",
+      "name": "插件 / MCP",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d5",
+      "oneLiner": "在线工具订阅",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d5.saas",
+      "name": "SaaS 订阅",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d5",
+      "oneLiner": "智能体形态产品",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d5.agent-product",
+      "name": "Agent 产品",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d5",
+      "oneLiner": "站点型产品（常挂出海）",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d5.tool-site",
+      "name": "出海工具站",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d6",
+      "oneLiner": "海外平台内容变现",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d6.content",
+      "name": "内容出海",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d6",
+      "oneLiner": "跨境电商",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d6.goods",
+      "name": "货出海 / 跨境",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d6",
+      "oneLiner": "对外交付服务",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d6.service",
+      "name": "服务出海",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d6",
+      "oneLiner": "搜索与付费获客",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d6.seo-ads",
+      "name": "SEO / Ads 获客",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d6",
+      "oneLiner": "自有站点成交",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d6.indie",
+      "name": "独立站",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d7",
+      "oneLiner": "搜索/平台占位",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d7.public",
+      "name": "公域占位",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d7",
+      "oneLiner": "微信等私域",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d7.private",
+      "name": "私域沉淀",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d7",
+      "oneLiner": "买流量",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d7.paid",
+      "name": "付费投放",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d7",
+      "oneLiner": "搜索引擎可见",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d7.seo",
+      "name": "SEO",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d7",
+      "oneLiner": "被 AI 答案引用",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d7.geo",
+      "name": "GEO / AI 搜索可见",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d7",
+      "oneLiner": "线索跟进与成交",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d7.sales",
+      "name": "销售成交动作",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d8",
+      "oneLiner": "线下门店引流",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d8.store",
+      "name": "到店获客",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d8",
+      "oneLiner": "帮店做内容/团购",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d8.ops",
+      "name": "代运营本地商户",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d8",
+      "oneLiner": "本地服务者",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d8.weak-ip",
+      "name": "弱 IP 本地服务",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d8",
+      "oneLiner": "活动票务/赞助",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d8.offline",
+      "name": "线下活动变现",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d9",
+      "oneLiner": "怎么筛方向",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d9.pick",
+      "name": "选项目方法",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d9",
+      "oneLiner": "怎么拆别人的成功",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d9.case",
+      "name": "案例拆解方法",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d9",
+      "oneLiner": "试多久、何时停",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d9.validate-stop",
+      "name": "验证与止损",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d9",
+      "oneLiner": "信息差能用但不能当唯一壁垒",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d9.info-gap",
+      "name": "信息差使用边界",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d10",
+      "oneLiner": "入门引导",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d10.onboard",
+      "name": "新人路径",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d10",
+      "oneLiner": "小圈层",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d10.vertical-circle",
+      "name": "垂直圈层运营",
+      "kind": "subdirection"
+    },
+    {
+      "parent": "dir.d10",
+      "oneLiner": "社交连接（索引向）",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "方向地图 + 计划预览 B3"
+        }
+      ],
+      "status": "filled",
+      "id": "sub.d10.network",
+      "name": "人脉 / 局",
+      "kind": "subdirection"
+    },
+    {
+      "parent": null,
+      "oneLiner": "内容生产相关能力",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "skill.group.content",
+      "name": "内容技能",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "货与店相关能力",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "skill.group.commerce",
+      "name": "电商技能",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "获客与成交",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "skill.group.growth",
+      "name": "获客销售技能",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "做出可卖物",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "skill.group.build",
+      "name": "产品技术技能",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "定价、复盘、时间预算",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "skill.group.ops",
+      "name": "经营技能",
+      "kind": "group"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "决定这篇讲什么",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.topic-select",
+      "name": "选题",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "写出让人读完并行动的文字",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.copywriting",
+      "name": "文案",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "短视频/口播结构",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.script",
+      "name": "脚本",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "出镜或实拍",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.shoot",
+      "name": "拍摄",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "成片节奏与字幕",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.edit",
+      "name": "剪辑",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "第一眼点击率",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.cover",
+      "name": "封面 / 排版",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "镜头前表达",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.speaking",
+      "name": "口播表达",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.content",
+      "oneLiner": "互动与置顶引导",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.community-ops",
+      "name": "运营评论区",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.commerce",
+      "oneLiner": "选可卖的货",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.sourcing",
+      "name": "选品",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.commerce",
+      "oneLiner": "价格带与利润感",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.pricing-sense",
+      "name": "定价感知",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.commerce",
+      "oneLiner": "发货与库存感知",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.supply-chain",
+      "name": "供应链基础",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.commerce",
+      "oneLiner": "客诉与复购",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.after-sales",
+      "name": "售后话术",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.growth",
+      "oneLiner": "搜索可见",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.seo-basic",
+      "name": "占位 / SEO 基础",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.growth",
+      "oneLiner": "付费流基础",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.ads-basic",
+      "name": "投放基础",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.growth",
+      "oneLiner": "沉淀与激活",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.private-domain",
+      "name": "私域运营",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.growth",
+      "oneLiner": "促成付款",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.closing",
+      "name": "成交话术",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.growth",
+      "oneLiner": "跟进不丢单",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.lead-follow",
+      "name": "线索跟进",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.build",
+      "oneLiner": "听清用户原话",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.interview",
+      "name": "需求访谈",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.build",
+      "oneLiner": "不写代码也能上线",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.nocode",
+      "name": "无代码搭建",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.build",
+      "oneLiner": "写出可运行产品",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.coding",
+      "name": "编程交付",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.build",
+      "oneLiner": "发布与域名等上线",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.ship-miniapp",
+      "name": "小程序/站上线",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.build",
+      "oneLiner": "看数据做决策",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.data-analysis",
+      "name": "数据分析",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.ops",
+      "oneLiner": "怎么打包卖",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.packaging",
+      "name": "定价与套餐",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.ops",
+      "oneLiner": "知道赚没赚",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.review-ledger",
+      "name": "复盘记账",
+      "kind": "skill"
+    },
+    {
+      "parent": "skill.group.ops",
+      "oneLiner": "副业周投入边界",
+      "whoFor": "相关玩法从业者",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "项目库人群门槛 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "skill.time-budget",
+      "name": "时间预算",
+      "kind": "skill"
+    },
+    {
+      "parent": null,
+      "oneLiner": "内容生成能力",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "ai.group.generate",
+      "name": "生成类",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "Agent 与自动化",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "ai.group.agent",
+      "name": "推理与编排",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "代码与脚手架",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "ai.group.build",
+      "name": "建造类",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "检索与被看见",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "ai.group.discover",
+      "name": "知识与发现",
+      "kind": "group"
+    },
+    {
+      "parent": null,
+      "oneLiner": "对话与客服草稿",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "",
+      "sourceRefs": [],
+      "status": "filled",
+      "id": "ai.group.interact",
+      "name": "交互类",
+      "kind": "group"
+    },
+    {
+      "parent": "ai.group.generate",
+      "oneLiner": "起草改写翻译摘要",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.text-gen",
+      "name": "文本生成",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.generate",
+      "oneLiner": "配图与视觉草稿",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.image-gen",
+      "name": "图像生成",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.generate",
+      "oneLiner": "配音与音效草稿",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.audio-gen",
+      "name": "音频生成",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.generate",
+      "oneLiner": "成片/片段生成",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.video-gen",
+      "name": "视频生成",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.generate",
+      "oneLiner": "图文音视频组合",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.multimodal",
+      "name": "多模态混排",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.agent",
+      "oneLiner": "多步任务代理",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.agent",
+      "name": "Agent",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.agent",
+      "oneLiner": "串联工具自动跑",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.workflow",
+      "name": "工作流自动化",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.agent",
+      "oneLiner": "调 API/插件完成动作",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.tool-use",
+      "name": "工具调用",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.build",
+      "oneLiner": "写改测代码加速",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.codegen",
+      "name": "代码辅助",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.build",
+      "oneLiner": "快速起项目骨架",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.scaffold",
+      "name": "应用脚手架",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.discover",
+      "oneLiner": "基于私有知识回答",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.rag",
+      "name": "检索 / RAG",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.discover",
+      "oneLiner": "沉淀可查询材料",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.knowledge-base",
+      "name": "知识库",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.discover",
+      "oneLiner": "辅助搜索可见优化",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.seo-assist",
+      "name": "SEO 辅助",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.discover",
+      "oneLiner": "进入 AI 答案引用",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.geo",
+      "name": "GEO / AI 答案可见",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.interact",
+      "oneLiner": "语音交互",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.voice-chat",
+      "name": "语音对话",
+      "kind": "ai"
+    },
+    {
+      "parent": "ai.group.interact",
+      "oneLiner": "客服话术与自动回复草稿",
+      "whoFor": "",
+      "needsSkills": [],
+      "aiLevers": [],
+      "trafficNote": "",
+      "moneyNote": "",
+      "riskNote": "不替代需求验证与信任",
+      "sourceRefs": [
+        {
+          "level": "A",
+          "ref": "生财 AI 簇 + 计划预览 F"
+        }
+      ],
+      "status": "filled",
+      "id": "ai.cs-bot-draft",
+      "name": "客服机器人草稿",
+      "kind": "ai"
+    },
+    {
+      "parent": "sub.media-text",
+      "oneLiner": "窄领域持续内容换信任与带货入口",
+      "whoFor": "有主业、能稳定周更",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.copywriting",
+        "skill.cover"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "推荐+搜索占位",
+      "moneyNote": "佣金/商单/导私域",
+      "riskNote": "有播放无成交；选题飘",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标10 垂直小号"
+        }
+      ],
+      "status": "filled",
+      "id": "play.vertical-niche-seed",
+      "name": "垂直小号种草",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-shortvideo",
+      "oneLiner": "短视频挂链赚佣金",
+      "whoFor": "执行力强、能日更测品",
+      "needsSkills": [
+        "skill.script",
+        "skill.edit",
+        "skill.sourcing"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.video-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "短视频推荐流",
+      "moneyNote": "CPS 佣金",
+      "riskNote": "平台佣金与违规风险",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "项目库形态·内容带货；超级标09 类推客"
+        }
+      ],
+      "status": "filled",
+      "id": "play.shortvideo-cps",
+      "name": "短视频带货 CPS",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "多号测试赛道，用数据留存",
+      "whoFor": "能接受批量运营成本",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.data-analysis"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.workflow"
+      ],
+      "trafficNote": "多账号覆盖推荐",
+      "moneyNote": "随各号变现方式",
+      "riskNote": "同质化与平台限流",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "生财矩阵讨论·形态索引"
+        }
+      ],
+      "status": "filled",
+      "id": "play.account-matrix",
+      "name": "账号矩阵分发",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-longvideo",
+      "oneLiner": "中长视频吃平台广告或创作激励",
+      "whoFor": "能接受延迟反馈",
+      "needsSkills": [
+        "skill.script",
+        "skill.edit",
+        "skill.topic-select"
+      ],
+      "aiLevers": [
+        "ai.video-gen",
+        "ai.text-gen",
+        "ai.audio-gen"
+      ],
+      "trafficNote": "订阅+推荐+搜索",
+      "moneyNote": "广告分成/激励",
+      "riskNote": "赛道同质可一夜清零",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标08 YouTube 中长；摘录卡私藏人间"
+        }
+      ],
+      "status": "filled",
+      "id": "play.midlong-adshare",
+      "name": "中长内容广告分成",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.we-media",
+      "oneLiner": "做 AI 主题内容位，而非只会用 AI 写稿",
+      "whoFor": "跟得上工具变化的人",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.copywriting"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen",
+        "ai.multimodal"
+      ],
+      "trafficNote": "各内容平台",
+      "moneyNote": "商单/课/社群/咨询",
+      "riskNote": "工具教程红海",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标01 AI自媒体"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ai-media-theme",
+      "name": "AI 主题自媒体",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-shortvideo",
+      "oneLiner": "AI 降本内容 × 海外/多平台分发",
+      "whoFor": "能接受多账号试错",
+      "needsSkills": [
+        "skill.edit",
+        "skill.topic-select"
+      ],
+      "aiLevers": [
+        "ai.video-gen",
+        "ai.audio-gen",
+        "ai.workflow"
+      ],
+      "trafficNote": "Shorts/TikTok/多平台",
+      "moneyNote": "广告分成",
+      "riskNote": "政策与同质化",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标02 AI视频"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ai-video-global",
+      "name": "AI 视频全球分发",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-longvideo",
+      "oneLiner": "评测/种草内容挂外链成交",
+      "whoFor": "有垂直品类表达力",
+      "needsSkills": [
+        "skill.script",
+        "skill.sourcing",
+        "skill.speaking"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.video-gen"
+      ],
+      "trafficNote": "B站推荐与搜索",
+      "moneyNote": "佣金/挂链",
+      "riskNote": "平台规则变化",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标07 B站好物"
+        }
+      ],
+      "status": "filled",
+      "id": "play.bilibili-goods",
+      "name": "B站好物挂链",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-shortvideo",
+      "oneLiner": "低技术执行力：内容推本地外卖",
+      "whoFor": "要执行力项目、技术弱",
+      "needsSkills": [
+        "skill.shoot",
+        "skill.edit"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "短视频本地",
+      "moneyNote": "推客佣金",
+      "riskNote": "政策与佣金下调",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标09 外卖内容推客"
+        }
+      ],
+      "status": "filled",
+      "id": "play.food-delivery-promo",
+      "name": "外卖内容推客",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-text",
+      "oneLiner": "海外平台做中文 AI 内容",
+      "whoFor": "能写中英或工具辅助",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.copywriting"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "X 推荐与关注链",
+      "moneyNote": "产品导流/社群",
+      "riskNote": "平台算法与封号",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标19"
+        }
+      ],
+      "status": "filled",
+      "id": "play.x-cn-ai",
+      "name": "X 中文 AI 号",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-image",
+      "oneLiner": "细分图片内容形态占位",
+      "whoFor": "视觉产出稳定者",
+      "needsSkills": [
+        "skill.cover",
+        "skill.topic-select"
+      ],
+      "aiLevers": [
+        "ai.image-gen"
+      ],
+      "trafficNote": "微信生态曝光",
+      "moneyNote": "带货/私域",
+      "riskNote": "入口变化快",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标21"
+        }
+      ],
+      "status": "filled",
+      "id": "play.wechat-sticker",
+      "name": "微信贴图号",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.templates",
+      "oneLiner": "种草平台卖虚拟资料/模板",
+      "whoFor": "能持续上新虚拟品",
+      "needsSkills": [
+        "skill.copywriting",
+        "skill.packaging",
+        "skill.cover"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "小红书搜索+推荐",
+      "moneyNote": "虚拟品一次性销售",
+      "riskNote": "同质搬运与投诉",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标14"
+        }
+      ],
+      "status": "filled",
+      "id": "play.xhs-virtual-goods",
+      "name": "小红书虚拟产品",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.course",
+      "oneLiner": "从内容养成到可卖产品",
+      "whoFor": "愿意长期养账号的人",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.interview",
+        "skill.packaging"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "小红书",
+      "moneyNote": "产品/课/社群",
+      "riskNote": "周期长",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标15"
+        }
+      ],
+      "status": "filled",
+      "id": "play.xhs-product-nurture",
+      "name": "小红书产品养成系",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d2.vertical-shop",
+      "oneLiner": "窄品类店铺，反馈快",
+      "whoFor": "能跟选品与售后",
+      "needsSkills": [
+        "skill.sourcing",
+        "skill.after-sales",
+        "skill.pricing-sense"
+      ],
+      "aiLevers": [
+        "ai.image-gen",
+        "ai.text-gen"
+      ],
+      "trafficNote": "内容+店铺自然流/投流",
+      "moneyNote": "货差价",
+      "riskNote": "库存与退货",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标13"
+        }
+      ],
+      "status": "filled",
+      "id": "play.vertical-shop",
+      "name": "垂直小店",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d5.app",
+      "oneLiner": "产品形态机会，仍要分发",
+      "whoFor": "会做或能管开发的人",
+      "needsSkills": [
+        "skill.coding",
+        "skill.interview",
+        "skill.ship-miniapp"
+      ],
+      "aiLevers": [
+        "ai.codegen",
+        "ai.scaffold",
+        "ai.agent"
+      ],
+      "trafficNote": "依赖获客方向 D7/D6",
+      "moneyNote": "订阅/买断/广告",
+      "riskNote": "做出没人用",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标03"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ai-app",
+      "name": "AI 应用（站/App/插件）",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d5.app",
+      "oneLiner": "订阅产品化",
+      "whoFor": "有产品与上架能力",
+      "needsSkills": [
+        "skill.coding",
+        "skill.packaging",
+        "skill.ship-miniapp"
+      ],
+      "aiLevers": [
+        "ai.codegen"
+      ],
+      "trafficNote": "ASO/内容导流",
+      "moneyNote": "订阅",
+      "riskNote": "分成与审核",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标04"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ios-sub",
+      "name": "iOS 付费订阅",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.consult",
+      "oneLiner": "用 AI 提效后卖服务结果",
+      "whoFor": "有行业积累者",
+      "needsSkills": [
+        "skill.closing",
+        "skill.lead-follow",
+        "skill.interview"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.workflow",
+        "ai.cs-bot-draft"
+      ],
+      "trafficNote": "私域/人脉/内容获客",
+      "moneyNote": "项目制/月费",
+      "riskNote": "卖时间锁死",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标05"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ai-service",
+      "name": "AI 服务交付",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d4.workflow",
+      "oneLiner": "自动化能力做成可卖模板/产品",
+      "whoFor": "懂流程设计的人",
+      "needsSkills": [
+        "skill.nocode",
+        "skill.coding",
+        "skill.packaging"
+      ],
+      "aiLevers": [
+        "ai.workflow",
+        "ai.tool-use",
+        "ai.agent"
+      ],
+      "trafficNote": "内容演示+社群",
+      "moneyNote": "模板/订阅/服务",
+      "riskNote": "接口风控导致崩盘",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标11"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ai-workflow-product",
+      "name": "AI 工作流产品化",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.consult",
+      "oneLiner": "卖自动化落地服务给要提效的人",
+      "whoFor": "能交付+会销售",
+      "needsSkills": [
+        "skill.closing",
+        "skill.nocode",
+        "skill.interview"
+      ],
+      "aiLevers": [
+        "ai.workflow",
+        "ai.agent"
+      ],
+      "trafficNote": "案例内容+转介",
+      "moneyNote": "定制费",
+      "riskNote": "交付重",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标12"
+        }
+      ],
+      "status": "filled",
+      "id": "play.ai-workflow-agency",
+      "name": "AI 工作流定制服务商",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.consult",
+      "oneLiner": "ToB 学习/落地服务",
+      "whoFor": "有企业客户触达",
+      "needsSkills": [
+        "skill.closing",
+        "skill.interview",
+        "skill.packaging"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.rag",
+        "ai.knowledge-base"
+      ],
+      "trafficNote": "线下/人脉/内容",
+      "moneyNote": "培训+项目",
+      "riskNote": "销售周期长",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标16"
+        }
+      ],
+      "status": "filled",
+      "id": "play.enterprise-ai-train",
+      "name": "企业 AI 学习与服务",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d5.plugin",
+      "oneLiner": "Agent 生态里卖付费能力接口",
+      "whoFor": "有独特数据或能力的人",
+      "needsSkills": [
+        "skill.coding",
+        "skill.packaging"
+      ],
+      "aiLevers": [
+        "ai.tool-use",
+        "ai.agent"
+      ],
+      "trafficNote": "开发者社区",
+      "moneyNote": "按次/订阅",
+      "riskNote": "生态标准变化",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标17"
+        }
+      ],
+      "status": "filled",
+      "id": "play.paid-mcp",
+      "name": "付费 MCP / Agent 接口",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d7.public",
+      "oneLiner": "抓住重置注意力的事件窗口",
+      "whoFor": "敏感且能快速产出内容者",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.copywriting"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "事件公域",
+      "moneyNote": "导流后成交",
+      "riskNote": "窗口短、易踩线",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标18"
+        }
+      ],
+      "status": "filled",
+      "id": "play.reset-traffic",
+      "name": "注意力事件获客",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d5.saas",
+      "oneLiner": "垂直行业工具台订阅",
+      "whoFor": "深懂某一行业流程",
+      "needsSkills": [
+        "skill.interview",
+        "skill.coding",
+        "skill.packaging"
+      ],
+      "aiLevers": [
+        "ai.agent",
+        "ai.rag",
+        "ai.codegen"
+      ],
+      "trafficNote": "行业社群+内容",
+      "moneyNote": "SaaS",
+      "riskNote": "行业获客难",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标20"
+        }
+      ],
+      "status": "filled",
+      "id": "play.industry-ai-workbench",
+      "name": "行业 AI 工作台",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d9.pick",
+      "oneLiner": "选事优先站到流量侧（原则玩法）",
+      "whoFor": "所有起步读者",
+      "needsSkills": [
+        "skill.topic-select",
+        "skill.time-budget"
+      ],
+      "aiLevers": [
+        "ai.seo-assist",
+        "ai.geo"
+      ],
+      "trafficNote": "原则本身",
+      "moneyNote": "间接：提高选对率",
+      "riskNote": "误读为有粉=有商业",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "超级标22"
+        }
+      ],
+      "status": "filled",
+      "id": "play.near-traffic-select",
+      "name": "离流量近选事",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d5.tool-site",
+      "oneLiner": "工具站靠搜索获客再变现",
+      "whoFor": "会做站+懂基础 SEO",
+      "needsSkills": [
+        "skill.seo-basic",
+        "skill.coding",
+        "skill.ship-miniapp"
+      ],
+      "aiLevers": [
+        "ai.codegen",
+        "ai.seo-assist",
+        "ai.geo"
+      ],
+      "trafficNote": "SEO/GEO",
+      "moneyNote": "订阅/广告/联盟",
+      "riskNote": "算法与竞争",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "方向 D5×D6×D7；项目库 web站"
+        }
+      ],
+      "status": "filled",
+      "id": "play.tool-site-seo",
+      "name": "工具站 SEO",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d8.ops",
+      "oneLiner": "帮本地商户做内容/团购获客",
+      "whoFor": "能跑线下+会内容",
+      "needsSkills": [
+        "skill.shoot",
+        "skill.closing",
+        "skill.private-domain"
+      ],
+      "aiLevers": [
+        "ai.text-gen",
+        "ai.image-gen",
+        "ai.video-gen"
+      ],
+      "trafficNote": "本地生活平台+短视频",
+      "moneyNote": "代运营费/分成",
+      "riskNote": "回款与信任",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "方向 D8；项目库本地生活"
+        }
+      ],
+      "status": "filled",
+      "id": "play.local-life-ops",
+      "name": "本地生活代运营",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.templates",
+      "oneLiner": "定制视觉虚拟服务",
+      "whoFor": "会用生成工具者",
+      "needsSkills": [
+        "skill.cover",
+        "skill.closing"
+      ],
+      "aiLevers": [
+        "ai.image-gen",
+        "ai.multimodal"
+      ],
+      "trafficNote": "内容平台展示作品",
+      "moneyNote": "单次定制",
+      "riskNote": "价格战",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "项目库形态·头像定制/表情包"
+        }
+      ],
+      "status": "filled",
+      "id": "play.avatar-custom",
+      "name": "AI 头像 / 表情定制",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d5.app",
+      "oneLiner": "轻量游戏产品化",
+      "whoFor": "有游戏制作兴趣",
+      "needsSkills": [
+        "skill.coding",
+        "skill.ship-miniapp"
+      ],
+      "aiLevers": [
+        "ai.codegen",
+        "ai.image-gen"
+      ],
+      "trafficNote": "应用市场/内容",
+      "moneyNote": "内购/广告",
+      "riskNote": "获客贵",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "项目库形态·小游戏"
+        }
+      ],
+      "status": "filled",
+      "id": "play.mini-game",
+      "name": "小游戏产品",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.d3.consult",
+      "oneLiner": "人力+流程承接标注单",
+      "whoFor": "能组织交付的人",
+      "needsSkills": [
+        "skill.lead-follow",
+        "skill.after-sales"
+      ],
+      "aiLevers": [
+        "ai.workflow",
+        "ai.cs-bot-draft"
+      ],
+      "trafficNote": "平台接单/人脉",
+      "moneyNote": "按量结算",
+      "riskNote": "单价下行",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "项目库形态·数据标注"
+        }
+      ],
+      "status": "filled",
+      "id": "play.data-label",
+      "name": "数据标注接单",
+      "kind": "play"
+    },
+    {
+      "parent": "sub.media-audio",
+      "oneLiner": "音频内容换订阅与广告",
+      "whoFor": "善于谈话表达者",
+      "needsSkills": [
+        "skill.speaking",
+        "skill.topic-select"
+      ],
+      "aiLevers": [
+        "ai.audio-gen",
+        "ai.text-gen"
+      ],
+      "trafficNote": "播客平台订阅",
+      "moneyNote": "广告/赞赏/导流",
+      "riskNote": "增长慢",
+      "sourceRefs": [
+        {
+          "level": "B",
+          "ref": "全网补 C"
+        }
+      ],
+      "status": "filled",
+      "id": "play.podcast",
+      "name": "播客 / 音频栏目",
+      "kind": "play"
+    }
+  ],
+  "edges": [
+    {
+      "from": "stage.select",
+      "to": "stage.validate",
+      "rel": "precedes"
+    },
+    {
+      "from": "stage.validate",
+      "to": "stage.leverage",
+      "rel": "precedes"
+    },
+    {
+      "from": "stage.leverage",
+      "to": "stage.acquire",
+      "rel": "precedes"
+    },
+    {
+      "from": "stage.acquire",
+      "to": "stage.monetize",
+      "rel": "precedes"
+    },
+    {
+      "from": "stage.monetize",
+      "to": "stage.stop",
+      "rel": "precedes"
+    },
+    {
+      "from": "dir.d1",
+      "to": "sub.we-media",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "sub.media-shortvideo",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "sub.media-longvideo",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "sub.media-text",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "sub.media-image",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "sub.media-live",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "sub.media-audio",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.douyin",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.douyin",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.kuaishou",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.kuaishou",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.channels",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.channels",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.xiaohongshu",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.xiaohongshu",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.wechat-mp",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.wechat-mp",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.toutiao",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.toutiao",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.bilibili",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.bilibili",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.x",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d1",
+      "to": "plat.x",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.youtube",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "plat.youtube",
+      "rel": "related"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "plat.tiktok",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "plat.tiktok",
+      "rel": "related"
+    },
+    {
+      "from": "dir.d2",
+      "to": "sub.d2.dropship",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d2",
+      "to": "sub.d2.vertical-shop",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d2",
+      "to": "sub.d2.live-commerce",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d2",
+      "to": "sub.d2.sourcing",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d2",
+      "to": "sub.d2.local-group",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d2",
+      "to": "sub.d2.xianyu",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d3",
+      "to": "sub.d3.templates",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d3",
+      "to": "sub.d3.course",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d3",
+      "to": "sub.d3.community",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d3",
+      "to": "sub.d3.consult",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d4",
+      "to": "sub.d4.content-boost",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d4",
+      "to": "sub.d4.cs-boost",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d4",
+      "to": "sub.d4.design-boost",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d4",
+      "to": "sub.d4.workflow",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d5",
+      "to": "sub.d5.app",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d5",
+      "to": "sub.d5.plugin",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d5",
+      "to": "sub.d5.saas",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d5",
+      "to": "sub.d5.agent-product",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d5",
+      "to": "sub.d5.tool-site",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "sub.d6.content",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "sub.d6.goods",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "sub.d6.service",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "sub.d6.seo-ads",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d6",
+      "to": "sub.d6.indie",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d7",
+      "to": "sub.d7.public",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d7",
+      "to": "sub.d7.private",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d7",
+      "to": "sub.d7.paid",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d7",
+      "to": "sub.d7.seo",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d7",
+      "to": "sub.d7.geo",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d7",
+      "to": "sub.d7.sales",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d8",
+      "to": "sub.d8.store",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d8",
+      "to": "sub.d8.ops",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d8",
+      "to": "sub.d8.weak-ip",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d8",
+      "to": "sub.d8.offline",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d9",
+      "to": "sub.d9.pick",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d9",
+      "to": "sub.d9.case",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d9",
+      "to": "sub.d9.validate-stop",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d9",
+      "to": "sub.d9.info-gap",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d10",
+      "to": "sub.d10.onboard",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d10",
+      "to": "sub.d10.vertical-circle",
+      "rel": "contains"
+    },
+    {
+      "from": "dir.d10",
+      "to": "sub.d10.network",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.topic-select",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.copywriting",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.script",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.shoot",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.edit",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.cover",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.speaking",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.content",
+      "to": "skill.community-ops",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.commerce",
+      "to": "skill.sourcing",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.commerce",
+      "to": "skill.pricing-sense",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.commerce",
+      "to": "skill.supply-chain",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.commerce",
+      "to": "skill.after-sales",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.growth",
+      "to": "skill.seo-basic",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.growth",
+      "to": "skill.ads-basic",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.growth",
+      "to": "skill.private-domain",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.growth",
+      "to": "skill.closing",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.growth",
+      "to": "skill.lead-follow",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.build",
+      "to": "skill.interview",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.build",
+      "to": "skill.nocode",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.build",
+      "to": "skill.coding",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.build",
+      "to": "skill.ship-miniapp",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.build",
+      "to": "skill.data-analysis",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.ops",
+      "to": "skill.packaging",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.ops",
+      "to": "skill.review-ledger",
+      "rel": "contains"
+    },
+    {
+      "from": "skill.group.ops",
+      "to": "skill.time-budget",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.generate",
+      "to": "ai.text-gen",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.generate",
+      "to": "ai.image-gen",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.generate",
+      "to": "ai.audio-gen",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.generate",
+      "to": "ai.video-gen",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.generate",
+      "to": "ai.multimodal",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.agent",
+      "to": "ai.agent",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.agent",
+      "to": "ai.workflow",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.agent",
+      "to": "ai.tool-use",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.build",
+      "to": "ai.codegen",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.build",
+      "to": "ai.scaffold",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.discover",
+      "to": "ai.rag",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.discover",
+      "to": "ai.knowledge-base",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.discover",
+      "to": "ai.seo-assist",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.discover",
+      "to": "ai.geo",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.interact",
+      "to": "ai.voice-chat",
+      "rel": "contains"
+    },
+    {
+      "from": "ai.group.interact",
+      "to": "ai.cs-bot-draft",
+      "rel": "contains"
+    },
+    {
+      "from": "sub.media-text",
+      "to": "play.vertical-niche-seed",
+      "rel": "contains"
+    },
+    {
+      "from": "play.vertical-niche-seed",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.vertical-niche-seed",
+      "to": "skill.copywriting",
+      "rel": "requires"
+    },
+    {
+      "from": "play.vertical-niche-seed",
+      "to": "skill.cover",
+      "rel": "requires"
+    },
+    {
+      "from": "play.vertical-niche-seed",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.vertical-niche-seed",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-shortvideo",
+      "to": "play.shortvideo-cps",
+      "rel": "contains"
+    },
+    {
+      "from": "play.shortvideo-cps",
+      "to": "skill.script",
+      "rel": "requires"
+    },
+    {
+      "from": "play.shortvideo-cps",
+      "to": "skill.edit",
+      "rel": "requires"
+    },
+    {
+      "from": "play.shortvideo-cps",
+      "to": "skill.sourcing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.shortvideo-cps",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.shortvideo-cps",
+      "to": "ai.video-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.shortvideo-cps",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "play.account-matrix",
+      "rel": "contains"
+    },
+    {
+      "from": "play.account-matrix",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.account-matrix",
+      "to": "skill.data-analysis",
+      "rel": "requires"
+    },
+    {
+      "from": "play.account-matrix",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.account-matrix",
+      "to": "ai.workflow",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-longvideo",
+      "to": "play.midlong-adshare",
+      "rel": "contains"
+    },
+    {
+      "from": "play.midlong-adshare",
+      "to": "skill.script",
+      "rel": "requires"
+    },
+    {
+      "from": "play.midlong-adshare",
+      "to": "skill.edit",
+      "rel": "requires"
+    },
+    {
+      "from": "play.midlong-adshare",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.midlong-adshare",
+      "to": "ai.video-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.midlong-adshare",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.midlong-adshare",
+      "to": "ai.audio-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.we-media",
+      "to": "play.ai-media-theme",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ai-media-theme",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-media-theme",
+      "to": "skill.copywriting",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-media-theme",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-media-theme",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-media-theme",
+      "to": "ai.multimodal",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-shortvideo",
+      "to": "play.ai-video-global",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ai-video-global",
+      "to": "skill.edit",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-video-global",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-video-global",
+      "to": "ai.video-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-video-global",
+      "to": "ai.audio-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-video-global",
+      "to": "ai.workflow",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-longvideo",
+      "to": "play.bilibili-goods",
+      "rel": "contains"
+    },
+    {
+      "from": "play.bilibili-goods",
+      "to": "skill.script",
+      "rel": "requires"
+    },
+    {
+      "from": "play.bilibili-goods",
+      "to": "skill.sourcing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.bilibili-goods",
+      "to": "skill.speaking",
+      "rel": "requires"
+    },
+    {
+      "from": "play.bilibili-goods",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.bilibili-goods",
+      "to": "ai.video-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-shortvideo",
+      "to": "play.food-delivery-promo",
+      "rel": "contains"
+    },
+    {
+      "from": "play.food-delivery-promo",
+      "to": "skill.shoot",
+      "rel": "requires"
+    },
+    {
+      "from": "play.food-delivery-promo",
+      "to": "skill.edit",
+      "rel": "requires"
+    },
+    {
+      "from": "play.food-delivery-promo",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.food-delivery-promo",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-text",
+      "to": "play.x-cn-ai",
+      "rel": "contains"
+    },
+    {
+      "from": "play.x-cn-ai",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.x-cn-ai",
+      "to": "skill.copywriting",
+      "rel": "requires"
+    },
+    {
+      "from": "play.x-cn-ai",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.x-cn-ai",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-image",
+      "to": "play.wechat-sticker",
+      "rel": "contains"
+    },
+    {
+      "from": "play.wechat-sticker",
+      "to": "skill.cover",
+      "rel": "requires"
+    },
+    {
+      "from": "play.wechat-sticker",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.wechat-sticker",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.templates",
+      "to": "play.xhs-virtual-goods",
+      "rel": "contains"
+    },
+    {
+      "from": "play.xhs-virtual-goods",
+      "to": "skill.copywriting",
+      "rel": "requires"
+    },
+    {
+      "from": "play.xhs-virtual-goods",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.xhs-virtual-goods",
+      "to": "skill.cover",
+      "rel": "requires"
+    },
+    {
+      "from": "play.xhs-virtual-goods",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.xhs-virtual-goods",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.course",
+      "to": "play.xhs-product-nurture",
+      "rel": "contains"
+    },
+    {
+      "from": "play.xhs-product-nurture",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.xhs-product-nurture",
+      "to": "skill.interview",
+      "rel": "requires"
+    },
+    {
+      "from": "play.xhs-product-nurture",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.xhs-product-nurture",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.xhs-product-nurture",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d2.vertical-shop",
+      "to": "play.vertical-shop",
+      "rel": "contains"
+    },
+    {
+      "from": "play.vertical-shop",
+      "to": "skill.sourcing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.vertical-shop",
+      "to": "skill.after-sales",
+      "rel": "requires"
+    },
+    {
+      "from": "play.vertical-shop",
+      "to": "skill.pricing-sense",
+      "rel": "requires"
+    },
+    {
+      "from": "play.vertical-shop",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.vertical-shop",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d5.app",
+      "to": "play.ai-app",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ai-app",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-app",
+      "to": "skill.interview",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-app",
+      "to": "skill.ship-miniapp",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-app",
+      "to": "ai.codegen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-app",
+      "to": "ai.scaffold",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-app",
+      "to": "ai.agent",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d5.app",
+      "to": "play.ios-sub",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ios-sub",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ios-sub",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ios-sub",
+      "to": "skill.ship-miniapp",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ios-sub",
+      "to": "ai.codegen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.consult",
+      "to": "play.ai-service",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ai-service",
+      "to": "skill.closing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-service",
+      "to": "skill.lead-follow",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-service",
+      "to": "skill.interview",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-service",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-service",
+      "to": "ai.workflow",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-service",
+      "to": "ai.cs-bot-draft",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d4.workflow",
+      "to": "play.ai-workflow-product",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ai-workflow-product",
+      "to": "skill.nocode",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-workflow-product",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-workflow-product",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-workflow-product",
+      "to": "ai.workflow",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-workflow-product",
+      "to": "ai.tool-use",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-workflow-product",
+      "to": "ai.agent",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.consult",
+      "to": "play.ai-workflow-agency",
+      "rel": "contains"
+    },
+    {
+      "from": "play.ai-workflow-agency",
+      "to": "skill.closing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-workflow-agency",
+      "to": "skill.nocode",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-workflow-agency",
+      "to": "skill.interview",
+      "rel": "requires"
+    },
+    {
+      "from": "play.ai-workflow-agency",
+      "to": "ai.workflow",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.ai-workflow-agency",
+      "to": "ai.agent",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.consult",
+      "to": "play.enterprise-ai-train",
+      "rel": "contains"
+    },
+    {
+      "from": "play.enterprise-ai-train",
+      "to": "skill.closing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.enterprise-ai-train",
+      "to": "skill.interview",
+      "rel": "requires"
+    },
+    {
+      "from": "play.enterprise-ai-train",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.enterprise-ai-train",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.enterprise-ai-train",
+      "to": "ai.rag",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.enterprise-ai-train",
+      "to": "ai.knowledge-base",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d5.plugin",
+      "to": "play.paid-mcp",
+      "rel": "contains"
+    },
+    {
+      "from": "play.paid-mcp",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.paid-mcp",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.paid-mcp",
+      "to": "ai.tool-use",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.paid-mcp",
+      "to": "ai.agent",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d7.public",
+      "to": "play.reset-traffic",
+      "rel": "contains"
+    },
+    {
+      "from": "play.reset-traffic",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.reset-traffic",
+      "to": "skill.copywriting",
+      "rel": "requires"
+    },
+    {
+      "from": "play.reset-traffic",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.reset-traffic",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d5.saas",
+      "to": "play.industry-ai-workbench",
+      "rel": "contains"
+    },
+    {
+      "from": "play.industry-ai-workbench",
+      "to": "skill.interview",
+      "rel": "requires"
+    },
+    {
+      "from": "play.industry-ai-workbench",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.industry-ai-workbench",
+      "to": "skill.packaging",
+      "rel": "requires"
+    },
+    {
+      "from": "play.industry-ai-workbench",
+      "to": "ai.agent",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.industry-ai-workbench",
+      "to": "ai.rag",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.industry-ai-workbench",
+      "to": "ai.codegen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d9.pick",
+      "to": "play.near-traffic-select",
+      "rel": "contains"
+    },
+    {
+      "from": "play.near-traffic-select",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.near-traffic-select",
+      "to": "skill.time-budget",
+      "rel": "requires"
+    },
+    {
+      "from": "play.near-traffic-select",
+      "to": "ai.seo-assist",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.near-traffic-select",
+      "to": "ai.geo",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d5.tool-site",
+      "to": "play.tool-site-seo",
+      "rel": "contains"
+    },
+    {
+      "from": "play.tool-site-seo",
+      "to": "skill.seo-basic",
+      "rel": "requires"
+    },
+    {
+      "from": "play.tool-site-seo",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.tool-site-seo",
+      "to": "skill.ship-miniapp",
+      "rel": "requires"
+    },
+    {
+      "from": "play.tool-site-seo",
+      "to": "ai.codegen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.tool-site-seo",
+      "to": "ai.seo-assist",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.tool-site-seo",
+      "to": "ai.geo",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d8.ops",
+      "to": "play.local-life-ops",
+      "rel": "contains"
+    },
+    {
+      "from": "play.local-life-ops",
+      "to": "skill.shoot",
+      "rel": "requires"
+    },
+    {
+      "from": "play.local-life-ops",
+      "to": "skill.closing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.local-life-ops",
+      "to": "skill.private-domain",
+      "rel": "requires"
+    },
+    {
+      "from": "play.local-life-ops",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.local-life-ops",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.local-life-ops",
+      "to": "ai.video-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.templates",
+      "to": "play.avatar-custom",
+      "rel": "contains"
+    },
+    {
+      "from": "play.avatar-custom",
+      "to": "skill.cover",
+      "rel": "requires"
+    },
+    {
+      "from": "play.avatar-custom",
+      "to": "skill.closing",
+      "rel": "requires"
+    },
+    {
+      "from": "play.avatar-custom",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.avatar-custom",
+      "to": "ai.multimodal",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d5.app",
+      "to": "play.mini-game",
+      "rel": "contains"
+    },
+    {
+      "from": "play.mini-game",
+      "to": "skill.coding",
+      "rel": "requires"
+    },
+    {
+      "from": "play.mini-game",
+      "to": "skill.ship-miniapp",
+      "rel": "requires"
+    },
+    {
+      "from": "play.mini-game",
+      "to": "ai.codegen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.mini-game",
+      "to": "ai.image-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.d3.consult",
+      "to": "play.data-label",
+      "rel": "contains"
+    },
+    {
+      "from": "play.data-label",
+      "to": "skill.lead-follow",
+      "rel": "requires"
+    },
+    {
+      "from": "play.data-label",
+      "to": "skill.after-sales",
+      "rel": "requires"
+    },
+    {
+      "from": "play.data-label",
+      "to": "ai.workflow",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.data-label",
+      "to": "ai.cs-bot-draft",
+      "rel": "levered_by"
+    },
+    {
+      "from": "sub.media-audio",
+      "to": "play.podcast",
+      "rel": "contains"
+    },
+    {
+      "from": "play.podcast",
+      "to": "skill.speaking",
+      "rel": "requires"
+    },
+    {
+      "from": "play.podcast",
+      "to": "skill.topic-select",
+      "rel": "requires"
+    },
+    {
+      "from": "play.podcast",
+      "to": "ai.audio-gen",
+      "rel": "levered_by"
+    },
+    {
+      "from": "play.podcast",
+      "to": "ai.text-gen",
+      "rel": "levered_by"
+    }
+  ],
+  "views": [
+    {
+      "id": "V-directions",
+      "title": "十大方向总览",
+      "purpose": "一眼看清 D1–D10",
+      "nodeIds": [
+        "dir.d1",
+        "dir.d2",
+        "dir.d3",
+        "dir.d4",
+        "dir.d5",
+        "dir.d6",
+        "dir.d7",
+        "dir.d8",
+        "dir.d9",
+        "dir.d10"
+      ],
+      "layoutHint": "simple-page"
+    },
+    {
+      "id": "V-we-media-forms",
+      "title": "自媒体形态拆解",
+      "purpose": "内容形态枝",
+      "nodeIds": [
+        "sub.we-media",
+        "sub.media-shortvideo",
+        "sub.media-longvideo",
+        "sub.media-text",
+        "sub.media-image",
+        "sub.media-live",
+        "sub.media-audio"
+      ],
+      "layoutHint": "simple-page"
+    },
+    {
+      "id": "V-skills",
+      "title": "技能总览",
+      "purpose": "技能轴分组",
+      "nodeIds": [
+        "skill.group.content",
+        "skill.group.commerce",
+        "skill.group.growth",
+        "skill.group.build",
+        "skill.group.ops",
+        "skill.topic-select",
+        "skill.copywriting",
+        "skill.script",
+        "skill.shoot",
+        "skill.edit",
+        "skill.cover",
+        "skill.speaking",
+        "skill.community-ops",
+        "skill.sourcing",
+        "skill.pricing-sense",
+        "skill.supply-chain",
+        "skill.after-sales",
+        "skill.seo-basic",
+        "skill.ads-basic",
+        "skill.private-domain",
+        "skill.closing",
+        "skill.lead-follow",
+        "skill.interview",
+        "skill.nocode",
+        "skill.coding",
+        "skill.ship-miniapp",
+        "skill.data-analysis",
+        "skill.packaging",
+        "skill.review-ledger",
+        "skill.time-budget"
+      ],
+      "layoutHint": "overview"
+    },
+    {
+      "id": "V-ai",
+      "title": "AI 能力层",
+      "purpose": "记能力不记品牌",
+      "nodeIds": [
+        "ai.group.generate",
+        "ai.group.agent",
+        "ai.group.build",
+        "ai.group.discover",
+        "ai.group.interact",
+        "ai.text-gen",
+        "ai.image-gen",
+        "ai.audio-gen",
+        "ai.video-gen",
+        "ai.multimodal",
+        "ai.agent",
+        "ai.workflow",
+        "ai.tool-use",
+        "ai.codegen",
+        "ai.scaffold",
+        "ai.rag",
+        "ai.knowledge-base",
+        "ai.seo-assist",
+        "ai.geo",
+        "ai.voice-chat",
+        "ai.cs-bot-draft"
+      ],
+      "layoutHint": "simple-page"
+    },
+    {
+      "id": "V-stages",
+      "title": "决策链",
+      "purpose": "选事到收束",
+      "nodeIds": [
+        "stage.select",
+        "stage.validate",
+        "stage.leverage",
+        "stage.acquire",
+        "stage.monetize",
+        "stage.stop"
+      ],
+      "edgeFilter": [
+        "precedes"
+      ],
+      "layoutHint": "simple-page"
+    },
+    {
+      "id": "V-play-niche-bite",
+      "title": "玩法咬合：垂直小号",
+      "purpose": "单玩法技能与 AI",
+      "nodeIds": [
+        "play.vertical-niche-seed",
+        "skill.topic-select",
+        "skill.copywriting",
+        "ai.text-gen",
+        "ai.image-gen"
+      ],
+      "edgeFilter": [
+        "requires",
+        "levered_by"
+      ],
+      "layoutHint": "simple-page"
+    },
+    {
+      "id": "V-traffic",
+      "title": "流量相关方向",
+      "purpose": "D1 与 D7 一眼",
+      "nodeIds": [
+        "dir.d1",
+        "dir.d7",
+        "dim.near-traffic",
+        "sub.d7.public",
+        "sub.d7.geo"
+      ],
+      "layoutHint": "simple-page"
+    }
+  ]
+}

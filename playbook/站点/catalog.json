@@ -1,0 +1,92 @@
+[
+  {
+    "id": "directions",
+    "title": "十大方向",
+    "blurb": "副业先分成这十支。",
+    "file": "directions.md"
+  },
+  {
+    "id": "content",
+    "title": "内容与平台分发",
+    "blurb": "自媒体、短视频、图文，以及它们落在哪些平台。",
+    "file": "content.md"
+  },
+  {
+    "id": "commerce",
+    "title": "电商与货",
+    "blurb": "选品、带货、开店，货和订单怎么闭环。",
+    "file": "commerce.md"
+  },
+  {
+    "id": "virtual",
+    "title": "虚拟产品与知识变现",
+    "blurb": "卖资料、课、社群、咨询这类非实物。",
+    "file": "virtual.md"
+  },
+  {
+    "id": "ai-leverage",
+    "title": "AI 提效与工具",
+    "blurb": "用 AI 把制作和交付的成本降下来。",
+    "file": "ai-leverage.md"
+  },
+  {
+    "id": "ai-product",
+    "title": "AI 产品与开发",
+    "blurb": "把能力做成可以反复卖的产品或服务。",
+    "file": "ai-product.md"
+  },
+  {
+    "id": "overseas",
+    "title": "出海",
+    "blurb": "面向海外的流量、货或服务。",
+    "file": "overseas.md"
+  },
+  {
+    "id": "acquire",
+    "title": "获客与成交",
+    "blurb": "从公开平台到私域，以及怎么成交。",
+    "file": "acquire.md"
+  },
+  {
+    "id": "local",
+    "title": "本地与实体",
+    "blurb": "到店、本地生活、帮实体商户做事。",
+    "file": "local.md"
+  },
+  {
+    "id": "select",
+    "title": "认知与选事",
+    "blurb": "怎么选一件事、怎么试、什么时候停。",
+    "file": "select.md"
+  },
+  {
+    "id": "community",
+    "title": "人群与社群运营",
+    "blurb": "新人从哪进，圈子和社群怎么运营。",
+    "file": "community.md"
+  },
+  {
+    "id": "plays-map",
+    "title": "方向与玩法",
+    "blurb": "每种做法挂在哪个大方向下面。",
+    "file": "plays-map.md"
+  },
+  {
+    "id": "skill",
+    "title": "技能",
+    "blurb": "不同做法会反复用到这些技能。",
+    "file": "skill.md"
+  },
+  {
+    "id": "ai",
+    "title": "AI 能力",
+    "blurb": "生成、编排、建造这些能力会接到具体做法上。",
+    "file": "ai.md"
+  },
+  {
+    "id": "stages",
+    "title": "做事顺序",
+    "blurb": "从选事、验证，到获客和收钱。",
+    "file": "stages.md"
+  }
+]

@@ -1,42 +1,30 @@
 # leiwen.pro
 
-Portfolio website showcasing overseas projects.
+**雷文AI实践** · leiwen.pro — 口号：学AI 用AI 富起来。
 
-## Tech Stack
+频道定位真源：[docs/定位/README.md](docs/定位/README.md) · URL：[docs/URL对照表.md](docs/URL对照表.md)
 
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- next-themes (automatic dark/light mode)
-- Lucide React (icons)
+## 栏目
 
-## Getting Started
+| 菜单 | 路径 |
+|------|------|
+| 首页 | `/` |
+| 副业有术 | `/playbook` |
+| 副业导航 | `/links` |
+| 关于 | `/about` |
+| 其它作品（页脚） | `/works` |
 
-1. Install dependencies:
+副业有术数据与文档：[`playbook/`](playbook/)
+
+## 本地
+
 ```bash
 npm install
-```
-
-2. Run the development server:
-```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+http://localhost:3005 · http://localhost:3005/playbook
 
-## Build
+## 技术
 
-```bash
-npm run build
-npm start
-```
-
-## Features
-
-- ✅ Clean, modern design
-- ✅ Responsive layout (mobile: 1 column, tablet: 2 columns, desktop: 3-4 columns)
-- ✅ Automatic dark/light theme switching
-- ✅ Hover effects showing project descriptions
-- ✅ Project names with proper capitalization
-- ✅ Clickable cards linking to project websites
-
+Next.js App Router · TypeScript · Tailwind（壳）+ 栏目 CSS · 仅中文
