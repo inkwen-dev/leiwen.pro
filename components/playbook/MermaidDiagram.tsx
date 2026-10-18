@@ -60,14 +60,15 @@ export default function MermaidDiagram({ chart, label, layout = "mindmap", class
     );
   }
 
+  const diagram = drawn;
   const aria = label ? `${label}的结构` : "结构";
 
   function openViewer() {
     const fit = Math.min(
-      (window.innerWidth * 0.9) / drawn.width,
-      (window.innerHeight * 0.82) / drawn.height,
+      (window.innerWidth * 0.9) / diagram.width,
+      (window.innerHeight * 0.82) / diagram.height,
     );
-    setFitWidth(Math.max(1, Math.round(drawn.width * fit)));
+    setFitWidth(Math.max(1, Math.round(diagram.width * fit)));
     setScale(1);
     setPan({ x: 0, y: 0 });
     setOpen(true);
@@ -98,7 +99,7 @@ export default function MermaidDiagram({ chart, label, layout = "mindmap", class
         role="img"
         aria-label={aria}
         onClick={openViewer}
-        dangerouslySetInnerHTML={{ __html: drawn.svg }}
+        dangerouslySetInnerHTML={{ __html: diagram.svg }}
       />
       {open ? (
         <div
@@ -131,7 +132,7 @@ export default function MermaidDiagram({ chart, label, layout = "mindmap", class
             onPointerMove={onPointerMove}
             onPointerUp={onPointerUp}
             onPointerCancel={onPointerUp}
-            dangerouslySetInnerHTML={{ __html: drawn.svg }}
+            dangerouslySetInnerHTML={{ __html: diagram.svg }}
           />
         </div>
       ) : null}
