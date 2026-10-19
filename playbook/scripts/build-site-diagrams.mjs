@@ -91,14 +91,14 @@ function push(id, title, markdown) {
 }
 
 const branchIds = [
-  ["content", "内容与平台分发"],
-  ["commerce", "电商与货"],
-  ["virtual", "虚拟产品与知识变现"],
+  ["content", "自媒体"],
+  ["commerce", "电商"],
+  ["virtual", "知识付费"],
   ["ai-leverage", "AI 提效与工具"],
   ["ai-product", "AI 产品与开发"],
   ["overseas", "出海"],
   ["acquire", "获客与成交"],
-  ["local", "本地与实体"],
+  ["local", "本地生活"],
   ["select", "认知与选事"],
   ["community", "人群与社群运营"],
 ];

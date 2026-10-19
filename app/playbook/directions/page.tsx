@@ -26,7 +26,7 @@ export default function DirectionsPage() {
           {d.id === "dir.d1" && (
             <p className="meta">
               自媒体形态见{" "}
-              <Link href={playbookPath("views/content")}>内容与平台分发</Link>
+              <Link href={playbookPath("views/content")}>自媒体</Link>
             </p>
           )}
         </section>

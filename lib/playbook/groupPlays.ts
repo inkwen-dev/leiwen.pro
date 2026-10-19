@@ -1,10 +1,11 @@
 import { nodeById, nodesByKind } from "./loadMap";
 import type { MapNode, SideHustleMap } from "./types";
 
-/** 玩法页五个架子。一个方向只进一个架子；页面不另维护玩法名单。 */
+/** 玩法页六个架子。一个方向只进一个架子；页面不另维护玩法名单。 */
 const SHELVES: { title: string; directionIds: string[] }[] = [
   { title: "做内容", directionIds: ["dir.d1"] },
-  { title: "卖东西", directionIds: ["dir.d2", "dir.d8"] },
+  { title: "卖东西", directionIds: ["dir.d2"] },
+  { title: "本地生活", directionIds: ["dir.d8"] },
   { title: "卖知识", directionIds: ["dir.d3"] },
   { title: "做产品", directionIds: ["dir.d4", "dir.d5", "dir.d6"] },
   { title: "获客与选事", directionIds: ["dir.d7", "dir.d9", "dir.d10"] },

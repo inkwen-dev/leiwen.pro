@@ -7,19 +7,19 @@
   },
   {
     "id": "content",
-    "title": "内容与平台分发",
-    "blurb": "自媒体、短视频、图文，以及它们落在哪些平台。",
+    "title": "自媒体",
+    "blurb": "短视频、图文、中长视频，以及它们落在哪些平台。",
     "file": "content.md"
   },
   {
     "id": "commerce",
-    "title": "电商与货",
+    "title": "电商",
     "blurb": "选品、带货、开店，货和订单怎么闭环。",
     "file": "commerce.md"
   },
   {
     "id": "virtual",
-    "title": "虚拟产品与知识变现",
+    "title": "知识付费",
     "blurb": "卖资料、课、社群、咨询这类非实物。",
     "file": "virtual.md"
   },
@@ -49,8 +49,8 @@
   },
   {
     "id": "local",
-    "title": "本地与实体",
-    "blurb": "到店、本地生活、帮实体商户做事。",
+    "title": "本地生活",
+    "blurb": "到店、团购，以及帮附近商家做账号。",
     "file": "local.md"
   },
   {
