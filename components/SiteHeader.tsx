@@ -6,6 +6,12 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { brandName, primaryNav } from "@/lib/site/nav";
 
+function isExternal(
+  item: (typeof primaryNav)[number],
+): item is (typeof primaryNav)[number] & { external: true } {
+  return "external" in item && item.external === true;
+}
+
 export default function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -20,6 +26,9 @@ export default function SiteHeader() {
       : "text-[var(--leiwen-ink)] hover:text-[var(--leiwen-accent)]";
   };
 
+  const externalClass =
+    "font-semibold text-[var(--leiwen-accent)] no-underline hover:text-[var(--leiwen-accent-hover)]";
+
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--leiwen-line)] bg-[var(--leiwen-bg)]/90 backdrop-blur-sm">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
@@ -31,15 +40,27 @@ export default function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-6 text-sm sm:flex" aria-label="主导航">
-          {primaryNav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`${linkClass(item.href)} no-underline`}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {primaryNav.map((item) =>
+            isExternal(item) ? (
+              <a
+                key={item.href}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={externalClass}
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`${linkClass(item.href)} no-underline`}
+              >
+                {item.label}
+              </Link>
+            ),
+          )}
         </nav>
 
         <button
@@ -61,13 +82,25 @@ export default function SiteHeader() {
           <ul className="flex flex-col gap-3 text-sm">
             {primaryNav.map((item) => (
               <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className={`${linkClass(item.href)} no-underline`}
-                  onClick={() => setOpen(false)}
-                >
-                  {item.label}
-                </Link>
+                {isExternal(item) ? (
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={externalClass}
+                    onClick={() => setOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className={`${linkClass(item.href)} no-underline`}
+                    onClick={() => setOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>

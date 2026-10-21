@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { brandName, footerNav, siteShortSign } from "@/lib/site/nav";
+import { brandName, footerNav, friendLinks, siteShortSign } from "@/lib/site/nav";
 
 export default function SiteFooter() {
   return (
@@ -19,6 +19,27 @@ export default function SiteFooter() {
               >
                 {item.label}
               </Link>
+            </span>
+          ))}
+        </nav>
+        <nav
+          className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm"
+          aria-label="友情链接"
+        >
+          <span className="text-[var(--leiwen-muted)]">友情链接</span>
+          {friendLinks.map((item) => (
+            <span key={item.href} className="flex items-center gap-3">
+              <span className="text-[var(--leiwen-muted)]" aria-hidden>
+                ·
+              </span>
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--leiwen-muted)] no-underline hover:text-[var(--leiwen-accent)]"
+              >
+                {item.label}
+              </a>
             </span>
           ))}
         </nav>

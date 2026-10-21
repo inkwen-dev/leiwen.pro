@@ -7,11 +7,19 @@ export const siteSlogan = "学AI 用AI 富起来";
 /** 页脚短签 */
 export const siteShortSign = "雷文AI实践｜学AI 用AI 富起来";
 
+/** 站外友情链接（顶栏强调项 / 页脚友情链接同源） */
+export const inkwenGameLink = {
+  href: "https://inkwengame.com/",
+  label: "InkwenGame",
+  external: true as const,
+};
+
 /** 顶栏可见栏目（无「文章」——有稿再加） */
 export const primaryNav = [
   { href: "/playbook", label: "副业有术" },
   { href: "/links", label: "副业导航" },
   { href: "/about", label: "关于" },
+  inkwenGameLink,
 ] as const;
 
 /** 页脚栏目行（含边角「其它作品」） */
@@ -21,6 +29,9 @@ export const footerNav = [
   { href: "/about", label: "关于" },
   { href: "/works", label: "其它作品" },
 ] as const;
+
+/** 页脚友情链接（站外） */
+export const friendLinks = [inkwenGameLink] as const;
 
 /** 首页临时入口卡 */
 export const homeEntries = [
